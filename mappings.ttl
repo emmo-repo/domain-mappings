@@ -8,7 +8,7 @@
 
 <http://emmo.info/emmo/marketplace/mappings> rdf:type owl:Ontology ;
                                               owl:versionIRI <http://emmo.info/emmo/marketplace/0.0.1/mappings> ;
-                                              owl:imports <https://raw.githubusercontent.com/emmo-repo/emmo-repo.github.io/master/versions/1.0.0-beta/emmo-inferred-chemistry/1.0.0-beta> .
+                                              owl:imports <https://emmo-repo.github.io/versions/1.0.0-beta/emmo-inferred-chemistry2.ttl> .
 
 #################################################################
 #    Object Properties
