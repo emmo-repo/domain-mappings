@@ -29,12 +29,14 @@
                 rdfs:domain owl:Thing ;
                 rdfs:range :Domain ;
                 <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "States that a concept belongs to a domain."@en ;
-                <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "The concept CIF data set belongs to the domain of crystallography."@en .
+                <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "The concept CIF data set belongs to the domain of crystallography."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "belongsToDomain"@en .
 
 
 ###  http://emmo.info/domain-mappings#isSpecifiedBy
 :isSpecifiedBy rdf:type owl:ObjectProperty ;
-               rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455> .
+               rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455> ;
+               <http://www.w3.org/2004/02/skos/core#prefLabel> "isSpecifiedBy"@en .
 
 
 ###  http://emmo.info/domain-mappings#mapsTo
@@ -42,7 +44,8 @@
         rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455> ;
         rdfs:domain <http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> ;
         rdfs:range :OntologicalConcept ;
-        <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Maps a concept represented as a 'Symbolic' recognised by a user to a concept in an ontology."@en .
+        <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Maps a concept represented as a 'Symbolic' recognised by a user to a concept in an ontology."@en ;
+        <http://www.w3.org/2004/02/skos/core#prefLabel> "mapsTo"@en .
 
 
 ###  http://emmo.info/domain-mappings#relateToDomain
@@ -51,7 +54,8 @@
                 rdfs:domain owl:Thing ;
                 rdfs:range :Domain ;
                 <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Relates a concept, owlThing, to a specific domain."@en ;
-                <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "An expert may relate to a domain."@en .
+                <http://emmo.info/emmo#EMMO_b432d2d5_25f4_4165_99c5_5935a7763c1a> "An expert may relate to a domain."@en ;
+                <http://www.w3.org/2004/02/skos/core#prefLabel> "relatedToDomain"@en .
 
 
 #################################################################
