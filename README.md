@@ -9,16 +9,23 @@ It maps domains with workflows, applications, experts etc and enable discoverabi
 
 Attributions and credits
 ------------------------
-EMMO-python is maintained by [EMMC-ASBL](https://emmc.eu/).  So far it has mainly been developed by
-[SINTEF](https://www.sintef.no/).
 
-### Contributing projects
+### Contribruting projects
+
 - [MarketPlace](https://www.the-marketplace-project.eu/);
   Grant Agreement No: 760173
   <img src="https://www.the-marketplace-project.eu/content/dam/iwm/the-marketplace-project/images/MARKETPLACE_LOGO_300dpi.png" width="120">
 - [OntoTrans](https://ontotrans.eu/project/);
   Grant Agreement No: 862136
   <img src="https://ontotrans.eu/wp-content/uploads/2020/05/ot_logo_rosa_gro%C3%9F.svg" height="50">
+
+
+### Contributors and contacts
+
+- Thomas Hagelien (Thomas.F.Hagelien(at)sintef.no)
+- Jesper Friis (jesper.friis(at)sintef.no)
+- Treesa Rose Joseph (Treesa.Joseph(at)sintef.no)
+
 
 
 License
