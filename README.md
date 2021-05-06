@@ -18,6 +18,9 @@ Attributions and credits
 - [OntoTrans](https://ontotrans.eu/project/);
   Grant Agreement No: 862136
   <img src="https://ontotrans.eu/wp-content/uploads/2020/05/ot_logo_rosa_gro%C3%9F.svg" height="50">
+- [OpenModel](https://openmodel.eu/project/);
+  Grant Agreement No: 862136
+
 
 
 ### Contributors and contacts
