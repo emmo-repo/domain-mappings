@@ -19,6 +19,20 @@
                                     <http://purl.org/dc/terms/title> "Mappings ontology"@en ;
                                     owl:versionInfo "0.0.1" .
 
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://emmo.info/domain-mappings#mapsTo
+:mapsTo rdf:type owl:AnnotationProperty ;
+        rdfs:comment "Maps a resource to a class in an ontology."@en ;
+        rdfs:label "mapsTo"@en ;
+        rdfs:subPropertyOf rdfs:seeAlso ;
+        rdfs:range rdfs:Class ;
+        rdfs:domain rdfs:Resource .
+
+
 #################################################################
 #    Object Properties
 #################################################################
@@ -37,15 +51,6 @@
 :isSpecifiedBy rdf:type owl:ObjectProperty ;
                rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455> ;
                <http://www.w3.org/2004/02/skos/core#prefLabel> "isSpecifiedBy"@en .
-
-
-###  http://emmo.info/domain-mappings#mapsTo
-:mapsTo rdf:type owl:ObjectProperty ;
-        rdfs:subPropertyOf <http://emmo.info/emmo#EMMO_39c3815d_8cae_4c8f_b2ff_eeba24bec455> ;
-        rdfs:domain <http://emmo.info/emmo#EMMO_057e7d57_aff0_49de_911a_8861d85cef40> ;
-        rdfs:range :OntologicalConcept ;
-        <http://emmo.info/emmo#EMMO_967080e5_2f42_4eb2_a3a9_c58143e835f9> "Maps a concept represented as a 'Symbolic' recognised by a user to a concept in an ontology."@en ;
-        <http://www.w3.org/2004/02/skos/core#prefLabel> "mapsTo"@en .
 
 
 ###  http://emmo.info/domain-mappings#relateToDomain
